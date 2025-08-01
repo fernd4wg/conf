@@ -4,6 +4,6 @@ A simple custom command that takes you to the config directory of a program thou
 # Intallation
 
 ```bash 
-git clone https://github.com/fernd4wg/conf
+git clone https://github.com/fernd4wg/conf.git
 cd conf 
 sudo ./install.sh
