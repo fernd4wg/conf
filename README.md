@@ -3,4 +3,6 @@ A simple custom command that takes you to the config directory of a program thou
 
 # Intallation
 
-<pre> ```bash git clone https://github.com/yourusername/yourcommand.git cd yourcommand sudo ./install.sh ``` </pre>
+```bash 
+
+git clone https://github.com/yourusername/yourcommand.git cd yourcommand sudo ./install.sh
