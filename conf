@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# program to nvim into config dir of program
+
+config_dir="/home/$USER/.config/$1"
+
+if [ ! -d "$config_dir" ]; then
+  echo "Directory $config_dir doesn't exist or have a config directory in /home/$USER/.config"
+else
+  nvim "$config_dir"
+fi
